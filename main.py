@@ -22,6 +22,8 @@ def divide(a: float, b: float) -> float:
     """Divide a by b."""
     # BUG: This function doesn't handle division by zero properly
     # It should raise a ValueError with a descriptive message
+    if b == 0:
+        raise ValueError('Division by zero is not allowed')
     return a / b
 
 def main():
