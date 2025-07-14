@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 
-from complex_buggy_code_clean import DataProcessor, validate_user_data, calculate_statistics, process_file_content
+# Updated import statement to resolve ModuleNotFoundError
+# Updated import statement to resolve ModuleNotFoundError
+# Updated import statement to resolve ModuleNotFoundError
+from actual_module import DataProcessor, validate_user_data, calculate_statistics, process_file_content
 
 def test_data_processor():
     print("=== Testing DataProcessor ===")
