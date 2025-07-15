@@ -11,7 +11,6 @@ return result
 
 
 def main() -> None:
-    """Main function to demonstrate the bug."""
     try:
         x = 10
         y = 20
