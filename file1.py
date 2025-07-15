@@ -7,7 +7,7 @@ This demonstrates a common syntax error that can occur in Python.
 def calculate_sum(a: int, b: int) -> int:
     """Calculate the sum of two integers."""
     result = a + b
-return result  # This line has incorrect indentation - should be indented
+return result
 
 
 def main() -> None:
