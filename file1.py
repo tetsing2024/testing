@@ -1,24 +1,23 @@
-#!/usr/bin/env python3
-"""
-A simple Python file with an intentional indentation bug.
-This demonstrates a common syntax error that can occur in Python.
-"""
+def calculate_sum(a, b):
+    # This function has a syntax error - missing colon after if statement
+    if a > 0
+        return a + b
+    else:
+        return b
 
-def calculate_sum(a: int, b: int) -> int:
-    """Calculate the sum of two integers."""
-    result = a + b
-    return result
+def divide_numbers(x, y):
+    # This function has a NameError - undefined variable
+    result = x / y
+    return result + undefined_variable
 
+def print_message():
+    # This function has an IndentationError
+    print("Hello World")
+  print("This line has wrong indentation")
 
-def main() -> None:
-    try:
-        x = 10
-        y = 20
-        total = calculate_sum(x, y)
-        print(f"The sum of {x} and {y} is: {total}")
-    except Exception as e:
-        print(f"An error occurred: {e}")
-
-
+# Main execution
 if __name__ == "__main__":
-    main() 
+    # This will cause multiple errors when run
+    print(calculate_sum(5, 3))
+    print(divide_numbers(10, 2))
+    print_message() 
