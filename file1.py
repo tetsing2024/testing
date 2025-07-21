@@ -1,23 +1,17 @@
-def calculate_sum(a, b):
-    # This function has a syntax error - missing colon after if statement
-    if a > 0
-        return a + b
-    else:
-        return b
+def multiply_numbers(a, b)
+    # SyntaxError: missing colon after function definition
+    return a * b
 
-def divide_numbers(x, y):
-    # This function has a NameError - undefined variable
-    result = x / y
-    return result + undefined_variable
+def get_list_element(lst, index):
+    # IndexError: index out of range if index >= len(lst)
+    return lst[index]
 
-def print_message():
-    # This function has an IndentationError
-    print("Hello World")
-  print("This line has wrong indentation")
+def greet_user(name):
+    # TypeError: trying to concatenate str and int
+    greeting = "Hello, " + name + 123
+    print(greeting)
 
-# Main execution
 if __name__ == "__main__":
-    # This will cause multiple errors when run
-    print(calculate_sum(5, 3))
-    print(divide_numbers(10, 2))
-    print_message() 
+    print(multiply_numbers(2, 3))
+    print(get_list_element([1, 2, 3], 5))
+    greet_user("Alice")
